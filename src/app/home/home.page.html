@@ -1,0 +1,81 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Eva Weather App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="main">
+    <span class="city">Nice</span>
+    <span class="date">Mon, 11:45am</span>
+
+    <div class="icon">
+      <img src="../../assets/2x.png" alt="">
+    </div>
+
+    <span class="description">Cloudy</span>
+    <span class="temperature">10°</span>
+
+  </div>
+
+  <!-- 7 Day forecast grid -->
+  <ion-grid>
+    <!-- Day Row -->
+    <ion-row>
+      <ion-col class="day">Tue</ion-col>
+      <ion-col class="day">Wed</ion-col>
+      <ion-col class="day">Thu</ion-col>
+      <ion-col class="day">Fri</ion-col>
+      <ion-col class="day">Sat</ion-col>
+      <ion-col class="day">Sun</ion-col>
+      <ion-col class="day">Mon</ion-col>
+    </ion-row>
+
+    <!-- Chances of precipitation -->
+    <ion-row>
+      <ion-col class="precipitation">60%</ion-col>
+      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">20%</ion-col>
+      <ion-col class="precipitation">60%</ion-col>
+      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">-</ion-col>
+    </ion-row>
+
+    <!-- Weather icon -->
+    <ion-row>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/2x.png"></ion-col>
+    </ion-row>
+
+    <!-- Max temperature -->
+    <ion-row>
+      <ion-col class="hi-sm">14°C</ion-col>
+      <ion-col class="hi-sm">13°C</ion-col>
+      <ion-col class="hi-sm">12°C</ion-col>
+      <ion-col class="hi-sm">15°C</ion-col>
+      <ion-col class="hi-sm">11°C</ion-col>
+      <ion-col class="hi-sm">9°C</ion-col>
+      <ion-col class="hi-sm">17°C</ion-col>
+    </ion-row>
+
+  <!-- Min temperature -->
+  <ion-row>
+    <ion-col class="lo-sm">4°C</ion-col>
+    <ion-col class="lo-sm">3°C</ion-col>
+    <ion-col class="lo-sm">8°C</ion-col>
+    <ion-col class="lo-sm">8°C</ion-col>
+    <ion-col class="lo-sm">5°C</ion-col>
+    <ion-col class="lo-sm">1°C</ion-col>
+    <ion-col class="lo-sm">10°C</ion-col>
+  </ion-row>
+</ion-grid>
+
+
+</ion-content>
